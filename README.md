@@ -22,7 +22,7 @@ I decided to use scatterplot as my visualization implementation. Each dot encode
 
 I didn’t use color to encode categorical value: Country. The reason is that there are about 47 countries in this graph, it’s hard to distinguish one another. And it’s hard to show text directly over each dot because some of them are impacted together and text will overlap. Therefore, I used tooltips to show more information without distracting by any other factors. When mouse is hovering the dot, it enlarged and show country name for that dot. Here the text and enlarged dot are encoding the country name and its position relate to x-axis and y-axis.
 
-![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_geo/visualization%201.png "Logo Title Text 1")
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_geo/visualization%201.png "visual 1")
 
 **Visualization 2:**
 
@@ -32,12 +32,15 @@ Each country is encoded by a pie chart, which contains only two categories: rece
 
 Same tooltips tricks applied here.(A much bigger pie and country name shown if mouse hovers)
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_geo/visualization%202.png "visual 2")
 
 **Visualization 3:**
 
 Same idea as Visualization 2. Instead, the pie contains 5 top most frequent purposes of disbursements.
 
 Same tooltips tricks applied here to show detailed information about each pie. (larger pie and country name.)
+
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_geo/visualization%203.png "visual 3")
 
 ## Mini project 2: temporal
 
@@ -49,6 +52,9 @@ I created multiple groups of line chart for each countries. The question is focu
 Advantage: It’s clear to show the changes of donate vs received over time for each country.
 Disadvantage: It takes much more space to fit in all the charts.
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_temporal/Visual_1_1.png "visual 1_1")
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_temporal/Visual_1_2.png "visual 1_2")
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_temporal/Visual_1_3.png "visual 1_3")
 
 
 **Visualization 2:**
@@ -60,6 +66,8 @@ Base on it, we generate our data for a stacked Area chart. The reason is that a 
 Advantage: clearly show the purpose distribution clearly for a given time period. And we also preserve the ‘change of time’ properties if we used area chart for temporal data.
 Disadvantage: 10 different colors encode 10 different purposes. It gets harder to distinguish each category when number of colors become larger. Especially when area is so small.
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_temporal/Visual_2.png "visual 2")
+
 ## Mini project 3: network
 
 **Visualization 1:**
@@ -68,6 +76,7 @@ I used Matrix to represent relationships between donors and recipients. Each cel
 
 From the chart, we can say United States, Japan, Germany, and United Kingdom are the major donors. India and Thailand are the major recipients. Japan donated to India the most amount of money.
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%201.png "visual 1")
 
 **Visualization 2:**
 
@@ -78,9 +87,14 @@ For France, all the donations contain the social/welfare services. In fact, this
 For Korea, Italy, Switzerland, and Australia donated money only for Higher education purpose.
 For Saudi Arabia, this country didn’t donate to any top 10 recipients.
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%202.png "visual 2")
+
 
 **Visualization 3:**
 
 Same idea as Visualization 1. In addition, we added time to explain our data. User interaction is a good way to encode time.
 
 A button encode the functionality of time change.
+
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%203_1.png "visual 3_1")
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%203_2.png "visual 3")
