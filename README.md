@@ -95,6 +95,6 @@ For Saudi Arabia, this country didn’t donate to any top 10 recipients.
 Same idea as Visualization 1. In addition, we added time to explain our data. User interaction is a good way to encode time.
 
 A button encode the functionality of time change.
-
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visual_3.gif "visual 3")
 ![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%203_1.png "visual 3_1")
 ![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_network/visualization%203_2.png "visual 3")
