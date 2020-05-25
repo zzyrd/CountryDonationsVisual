@@ -22,6 +22,7 @@ I decided to use scatterplot as my visualization implementation. Each dot encode
 
 I didn’t use color to encode categorical value: Country. The reason is that there are about 47 countries in this graph, it’s hard to distinguish one another. And it’s hard to show text directly over each dot because some of them are impacted together and text will overlap. Therefore, I used tooltips to show more information without distracting by any other factors. When mouse is hovering the dot, it enlarged and show country name for that dot. Here the text and enlarged dot are encoding the country name and its position relate to x-axis and y-axis.
 
+![alt text](https://github.com/zzyrd/CountryDonationsVisual/blob/master/Screenshots/project_geo/visualization%201.png "Logo Title Text 1")
 
 **Visualization 2:**
 
@@ -52,7 +53,7 @@ Disadvantage: It takes much more space to fit in all the charts.
 
 **Visualization 2:**
 
-Firstly, I sorted out the top 10 purposes in terms of total amount of disbursement. Since we don’t need the unspecified purpose, which if included will be the 10th. We need to first remove unspecified purpose and get the top 10 purposes. 
+Firstly, I sorted out the top 10 purposes in terms of total amount of disbursement. Since we don’t need the unspecified purpose, which if included will be the 10th. We need to first remove unspecified purpose and get the top 10 purposes.
 
 Base on it, we generate our data for a stacked Area chart. The reason is that a stacked Area can show how different purposes distributed over a specific time.  And if we make the y-axis as percentage, we can know the distribution very easily.
 
